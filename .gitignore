@@ -8,6 +8,8 @@
 .docusaurus
 .cache-loader
 .obsidian
+.vitepress/cache
+
 
 # Misc
 .DS_Store
