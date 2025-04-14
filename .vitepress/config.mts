@@ -24,5 +24,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KaringX/clashmi' }
     ]
+  },
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://clashmi.app'
   }
 })
