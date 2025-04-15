@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Clash Mihomo for iOS",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/img/app_icon_64.png",
     nav: [
       { text: '用户手册', link: '/guide/' },
       { text: 'Download', link: '/download' }
