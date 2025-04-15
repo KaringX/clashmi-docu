@@ -19,7 +19,7 @@ features:
     details: 基于最新且持续更新的Mihomo(Clash Meta)内核. 内核及客户端均持续更新维护，放心使用.
   - title: 操作简单
     details: 支持metacubex的推荐配置, 内核基于yaml配置运行. 小白用户使用机场订阅即可使用.
-  - title: 新UI
+  - title: 清新UI
     details: 新版界面, 简洁不过度设计.
 ---
 

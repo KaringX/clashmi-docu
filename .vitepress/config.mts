@@ -13,10 +13,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '用户手册',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: '下载', link: '/download' }
+          { text: '快速开始', link: '/guide/' },
+          { text: 'FAQ', link: '/guide/faq' }
+        ]
+      },
+      {
+        text: '常用链接',
+        items: [
+          { text: '下载APP', link: '/download' },
+          { text: '联系我们', link: '/contacts' },
+          { text: '赞助商', link: 'https://1.x31415926.top/?ref=clashmi' },
+          { text: '捐赠', link: 'https://clashmi.app/donate' },
         ]
       }
     ],
