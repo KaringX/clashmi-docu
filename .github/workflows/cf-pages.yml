@@ -35,7 +35,7 @@ jobs:
           sed -i "s#https://urlplaceholder.com#${{ vars.CF_PAGES_URL }}#g" ./.vitepress/config.mts
           sed -i "s#/baseurlplaceholder#${{ vars.CF_PAGES_BASEURL }}#g" ./.vitepress/config.mts
       - name: Build website
-        run: npm run build
+        run: npm run docs:build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
@@ -52,7 +52,7 @@ jobs:
           branch:  ${{ github.ref_name }}
           # Optional: Change the working directory
           # All my website content is in the site folder
-          workingDirectory: ./build/
+          workingDirectory: ./.vitepress/dist/
           # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
           wranglerVersion: '3'
 
