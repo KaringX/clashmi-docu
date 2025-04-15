@@ -35,7 +35,7 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
 - Clash Mi是开源软件, 可免费使用.
 :::tip 推广
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://1.x31415926.top/cn.html?ref=clashmi)
-- 怎么获取免费流量, 请看 [新用户福利](./newuser.md)
+- 怎么获取免费流量, 请看 [新用户福利](https://karing.app/newuser)
 :::
 
 ## 二、快速使用/quickstart
