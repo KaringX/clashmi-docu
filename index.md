@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Clash Mi Project"
-  text: "Clash Mihomo for iOS"
-  tagline: My great project tagline
+  text: "Mihomo for iOS"
+  tagline: Simple is better than complex, Complex is better than complicated
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 用户手册
+      link: /guide
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 下载APP
+      link: /download
 
 features:
   - title: Feature A
