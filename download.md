@@ -1,5 +1,6 @@
 # 下载安装 Clash Mi
 
+
 ### iOS(iPhone/iPad)/MacOS
 - 应用市场[稳定版] [AppStore] `待上线` TODO
 - TestFlight[Beta测试版]  新功能尝鲜 [TestFlight](https://testflight.apple.com/join/bjHXktB3)
@@ -13,6 +14,6 @@
 - <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
 
 
-## 新版本发布通知
+### 新版本发布通知
 - 新发布版本, 同时会在 [ClashMiApp 电报群](https://t.me/ClashMiApp) 通知
 
