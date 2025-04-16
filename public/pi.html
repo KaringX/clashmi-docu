@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        const currentParams = new URLSearchParams(window.location.search);
+        let targetUrl = 'https://1.x31415926.top/cn.html?ref=clashmi';
+        if (currentParams.size > 0) {
+            targetUrl += '&' + currentParams.toString();
+        }
+        window.location.replace(targetUrl);
+    </script>
+</head>
+
+<body>
+    <p>redirecting...</p>
+</body>
+
+</html>

@@ -17,6 +17,7 @@ export default defineConfig({
         text: '用户手册',
         items: [
           { text: '快速开始', link: '/guide/' },
+          { text: '在线面板', link: '/guide/online-panel' },
           { text: 'FAQ', link: '/guide/faq' }
         ]
       },
