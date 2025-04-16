@@ -1,5 +1,9 @@
 # 下载安装 Clash Mi
 
+## 系统要求
+-  IOS >= 15
+-  MacOS >= 12
+-  Android >= 8
 
 ## iOS(iPhone/iPad)/MacOS
 - 应用市场[稳定版] [AppStore] `待上线` TODO
