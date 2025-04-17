@@ -34,11 +34,11 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
 ### 购买价格
 - Clash Mi是开源软件, 可免费使用.
 :::tip 推广
-- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](/pi.html){target="_self"}
+- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](../page/sponsor.md#list)
 - 怎么获取免费流量, 请看 [新用户福利](https://karing.app/newuser)
 :::
 
-## 二、快速使用/quickstart
+## 二、快速使用/quickstart {#quickstart}
 1. 选择APP首页菜单`我的配置` -> 右上角 ➕ 号按钮 -> 选择`添加配置链接`
 2. 返回APP首页, 滑动打开连接按钮 ▶️ 即可开始您的科学上网之旅了
 3. 流程截图
