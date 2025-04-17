@@ -31,7 +31,7 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
 -  MacOS >= 12
 -  Android >= 8
 
-### 购买价格
+### 购买价格 {#price}
 - Clash Mi是开源软件, 可免费使用.
 :::tip 推广
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](../page/sponsor.md#list)
