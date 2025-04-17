@@ -10,4 +10,5 @@
 ## 其他项目
 - [Karing](https://karing.app/)
   - 兼容Clash的通用网络代理工具, 支持clash/v2ray/ss订阅
+- [Sing-Box/Karing 的规则集](https://github.com/KaringX/karing-ruleset)
 
