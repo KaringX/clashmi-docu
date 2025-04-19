@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Clash Mi Project",
   description: "Clash Mihomo for iOS",
+  cleanUrls: true, //url删除 .html
   rewrites: {
     'page/newuser.md': 'newuser.md', //新人礼
   },
