@@ -22,7 +22,7 @@
 - 注册成功后登录到后台,进入机场的仪表盘,如下图
 - 复制链接☞ <font size=4 color="red">“Clash Meta内核专用”</font>
 
-- ![新人礼 订阅链接](./img/newuser-2.png)
+- ![新人礼 订阅链接](./img/newuser-cm.png)
 
 
 ## 3. 添加 Clash Mi 配置
