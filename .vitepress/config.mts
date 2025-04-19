@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Clash Mi Project",
   description: "Clash Mihomo for iOS",
+  rewrites: {
+    'page/newuser.md': 'newuser.md', //新人礼
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/app_icon_64.png",
