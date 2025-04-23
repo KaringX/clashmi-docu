@@ -19,8 +19,11 @@ class CountdownRedirect extends HTMLElement {
         .container {
           border: 1px solid #ccc;
           border-radius: 8px;
-          padding: 1em;
+          padding: 0.5em;
           font-family: sans-serif;
+        }
+        .container p {
+          line-height: 10%
         }
         button {
           padding: 0.5em 1em;
