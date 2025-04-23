@@ -23,7 +23,7 @@ class CountdownRedirect extends HTMLElement {
           font-family: sans-serif;
         }
         .container p {
-          line-height: 10%
+          margin: 0.2em;
         }
         button {
           padding: 0.5em 1em;
