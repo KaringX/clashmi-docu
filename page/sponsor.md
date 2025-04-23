@@ -9,16 +9,26 @@
 
 ## 排名不分先后, 请自行试用. 如无法访问,请自架梯  {#list}
 
-<!-- ISP START -->
+<countdown-redirect seconds="30" href="/newuser" title="新人礼 领取免费流量"></countdown-redirect>
+
+<!-- ISP1 START -->
+
 ## 狗狗加速
 :::tip [**【狗狗加速】**](https://1.x31415926.top/redir?i=3eb)
 
 - 高性能海外机场，❇️❇️免费试用3天❇️❇️，解锁流媒体，全球首家支持 Hysteria 协议。集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开。充值满100送10
-- [点击前往 **【狗狗加速】**](https://1.x31415926.top/redir?i=3eb)
-<p>Redirecting in <span id="countdown" href="/newuser">1</span> seconds... <button id="cancelRedirect">Cancel Redirect</button></p>
-
 :::
-    
+
+<!-- ISP1 END -->
+
+
+<!-- ISP2 START -->
+
+## 无界云VPN
+- 畅游网络，自由无界！我们提供高速、稳定、安全的VPN服务，助您轻松突破网络限制，畅享全球互联网。全球多节点覆盖、低延迟连接和强大的加密技术，确保您的在线隐私与数据安全；所有节点不限制速率。解锁Netflix Disney+等流媒体，解锁ChatGPT，同时还有游戏节点提供，具有极高的性价比！
+- [点击前往 **【无界云VPN】**](https://1.x31415926.top/redir?i=427)
+
+
 ## 紅杏
 - 🎉🎉🎉红杏VPN  高速BGP专线 8K秒开 注册就送30天体验，好用再付费，童叟无欺。
 - [点击前往 **【紅杏】**](https://1.x31415926.top/redir?i=3fb)
@@ -39,15 +49,16 @@
 - [点击前往 **【佛跳墙】**](https://1.x31415926.top/redir?i=3fc)
 
 
-<!-- ISP END -->
+<!-- ISP2 END -->
 
-<script>
-export default {
-  mounted() {
-    // 通过动态加载外部 JS 文件
-    const script = document.createElement('script');
-    script.src = '/js/sponsor.js?v=250417';
-    document.body.appendChild(script);
-  }
-}
+# 倒计时跳转示例
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const script = document.createElement('script');
+  script.src = '/js/component/CoutdownRedirect.js?v=250417';
+  document.body.appendChild(script);
+});
 </script>
