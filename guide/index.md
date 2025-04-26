@@ -54,8 +54,7 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
 - 面板 `secret` 可在菜单"核心设置"中找到.
 
 ## 三、进阶功能
-- yaml案例及配置可参考 [快捷配置 - 虚空终端 Docs](https://wiki.metacubex.one/example/conf/)
-- yaml语法 [MetaCubeX/mihomo 配置语法](https://wiki.metacubex.one/handbook/syntax/)
+- [yaml参考配置](/wiki/configuration-reference.md)
 
 ## 最后、常见问题/FAQ
 - 请移步 [FAQ](./faq.md)
