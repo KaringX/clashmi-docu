@@ -52,8 +52,18 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KaringX/clashmi' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the GPL-3.0 license.',
+      copyright: 'Copyright © 2025-present <a href="https://github.com/KaringX/clashmi">KaringX/clashmi</a>'
+    },
+    search: {
+      provider: 'local' // minisearch
+    },
+    outlineTitle: "本页目录",
+    outline: [2, 3],
   },
+
   lastUpdated: true,
   sitemap: {
     hostname: 'https://clashmi.app'
