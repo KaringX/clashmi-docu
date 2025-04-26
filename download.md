@@ -1,6 +1,6 @@
 # 下载安装 Clash Mi
 
-## 系统要求
+### 系统要求
 -  IOS >= 15
 -  MacOS >= 12
 -  Android >= 8
@@ -24,6 +24,9 @@
 ## Linux/Debian系/Ubuntu/Arch系/Fedora
 - 推荐命令行工具 纵享丝滑 [😼 优雅地部署、使用基于 clash/mihomo 的代理环境](https://github.com/nelvko/clash-for-linux-install?tab=readme-ov-file)
   - PS: 服务管理基于`systemd` 安装前确认下
+
+## Windows
+- 推荐同样使用mihomo内核的 [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party/releases/latest)
 
 ## 内核下载
 - [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo/releases/latest)
