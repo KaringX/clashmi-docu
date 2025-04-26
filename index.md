@@ -6,6 +6,9 @@ hero:
   name: "Clash Mi Project"
   text: "Mihomo for iOS"
   tagline: Simple is better than complex, Complex is better than complicated
+  image:
+    src: /img/app_icon_256.png
+    alt: ClashMi Logo
   actions:
     - theme: brand
       text: 用户手册
@@ -13,6 +16,9 @@ hero:
     - theme: alt
       text: 下载APP
       link: /download
+    - theme: alt
+      text: 领取💖新人免流💖
+      link: /newuser
 
 features:
   - title: 内置Mihomo内核

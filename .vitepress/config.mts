@@ -27,6 +27,19 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Clash 知识库',
+        items: [
+          { text: 'Clash 工作原理', link: '/wiki/introduction' },
+          { text: '快速入手', link: '/wiki/getting-started' },
+          { text: 'Inbound 入站', link: '/wiki/inbound' },
+          { text: 'Outbound 出站', link: '/wiki/outbound' },
+          { text: 'Rules 规则', link: '/wiki/rules' },
+          { text: 'Clash DNS', link: '/wiki/dns' },
+          { text: '参考配置', link: '/wiki/configuration-reference' },
+          { text: '外部控制设置', link: '/wiki/external-controller' },
+        ]
+      },
+      {
         text: '常用链接',
         items: [
           { text: '下载APP', link: '/download' },

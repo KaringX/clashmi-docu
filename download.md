@@ -21,3 +21,6 @@
 ## 新版本发布通知
 - 新发布版本, 同时会在 [ClashMiApp 电报群](https://t.me/ClashMiApp) 通知
 
+## 内核下载
+- [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo/releases/latest)
+
