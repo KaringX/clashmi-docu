@@ -7,7 +7,7 @@ hero:
   text: "Mihomo for iOS"
   tagline: Simple is better than complex, Complex is better than complicated
   image:
-    src: /img/app_icon_256.png
+    src: /img/app_icon2_256.png
     alt: ClashMi Logo
   actions:
     - theme: brand
