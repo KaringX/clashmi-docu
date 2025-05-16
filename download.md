@@ -6,7 +6,7 @@
 -  Android >= 8
 
 ## iOS(iPhone/iPad)/MacOS
-- 应用市场[稳定版] [AppStore] `待上线` TODO
+- 应用市场[稳定版] [AppStore](https://apps.apple.com/us/app/clash-mi/id6744321968)
 - TestFlight[Beta测试版]  新功能尝鲜 [TestFlight](https://testflight.apple.com/join/bjHXktB3)
 - 注意:
   - 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
