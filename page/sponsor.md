@@ -81,7 +81,7 @@ onMounted(() => {
   document.body.appendChild(script);
 
   const scr12 = document.createElement('script');
-  scr12.src = '/js/component/GoogleAd12.js?v=250519';
+  scr12.src = '/js/component/GoogleAd12.js?v=2505193';
   document.body.appendChild(scr12);
 });
 
