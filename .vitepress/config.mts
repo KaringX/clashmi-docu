@@ -8,6 +8,18 @@ export default defineConfig({
   rewrites: {
     'page/newuser.md': 'newuser.md', //新人礼
   },
+
+  head: [
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6660718818470329',
+        crossorigin: 'anonymous'
+      }
+    ]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/app_icon_64.png",
@@ -49,19 +61,29 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KaringX/clashmi' }
     ],
+
+
     footer: {
       message: 'Released under the GPL-3.0 license.',
       copyright: 'Copyright © 2025-present <a href="https://github.com/KaringX/clashmi">KaringX/clashmi</a>'
     },
+
     search: {
       provider: 'local' // minisearch
     },
     outlineTitle: "本页目录",
     outline: [2, 3],
+  },
+
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => /^google-|^countdown-/.test(tag), // ✅ 告诉 Vue 忽略 <google-ad-12> 等标签
+      },
+    },
   },
 
   lastUpdated: true,
