@@ -59,7 +59,7 @@ outline: deep
 
 ## ios下clashmi 内置zash面板无法正常使用
 ::: tip
-- `zashboard`不兼容部分版本号为16的ios系统,具体可以到`zashboard` github官方查看
+- `zashboard`不兼容ios 16.4,具体可以到`zashboard` github[https://github.com/Zephyruso/zashboard]查看
 - 解决方案: 替换成其他在线面板(仅支持`http`协议的在线面板)
 
 :::
