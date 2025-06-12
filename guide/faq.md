@@ -16,7 +16,7 @@ outline: deep
 ## 连接后无流量
 ::: tip
 - 表现: 流量及速度一直为0
-- 解决方案: 
+- 解决方案:
   - `TUN`设置为`覆写`,并且`启用`,重新连接(windows下需要以管理员身份重新启动clashmi才能启用TUN)
   - 如果你完全使用的是机场订阅(clashmi里未开启覆写), 你需要找你的订阅提供商改进配置
 :::
@@ -120,6 +120,14 @@ outline: deep
 ::: tip
 - 1. clashmi 本身不会收集任何信息
 - 2. clashmi 强制开启面板`secret`(设备唯一),即使用户开启允许非本机用户访问面板服务,其他用户也必须提供有效的`secret`才能访问面板
+
+:::
+
+
+## 如何修改延迟检测URL
+::: tip
+- 应用设置 -> 延迟测试URL
+- 可用的网址请参考: [url-test网址列表](https://karing.app/blog/case/url-test/#url-test%E7%BD%91%E5%9D%80%E5%88%97%E8%A1%A8)
 
 :::
 
