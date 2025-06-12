@@ -4,9 +4,9 @@
 <head>
     <script>
         const currentParams = new URLSearchParams(window.location.search);
-        let targetUrl = 'https://harry.karing.app/donate';
+        let targetUrl = 'https://harry.karing.app/donate?ref=clashmi';
         if (currentParams.size > 0) {
-            targetUrl += '?' + currentParams.toString();
+            targetUrl += '&' + currentParams.toString();
         }
         window.location.replace(targetUrl);
     </script>
