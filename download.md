@@ -22,8 +22,6 @@
 - <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
 
 
-
-
 ## Windows
 - - [ClashMi GitHub Releases](https://github.com/KaringX/clashmi/releases/latest)
   - Windows 建议下载安装包:文件名规则 clashmi_xxx_windows_x64.exe (xxx为版本号)
