@@ -11,6 +11,19 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
 ## 界面预览
 ![cmi首页](./img/demo01.png)
 
+### 系统要求
+-  IOS >= 15
+-  MacOS >= 12
+-  Android >= 8
+-  Windows >= 10
+
+### 购买价格 {#price}
+- Clash Mi是开源软件, 可免费使用.
+:::tip 推广
+- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](../page/sponsor.md#list)
+- 怎么获取免费流量, 请看 [新用户福利](/newuser)
+:::
+
 ## 一、 下载
 
 ### iOS(iPhone/iPad)/MacOS
@@ -26,17 +39,13 @@ Clash Mi 是内置`clash mihomo内核`的移动端代理工具. 开源、完全�
   - Android 建议下载安装包: 文件名规则 clashmi_xxx_android_arm.apk (xxx为版本号)
 - <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
 
-### 系统要求
--  IOS >= 15
--  MacOS >= 12
--  Android >= 8
 
-### 购买价格 {#price}
-- Clash Mi是开源软件, 可免费使用.
-:::tip 推广
-- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](../page/sponsor.md#list)
-- 怎么获取免费流量, 请看 [新用户福利](/newuser)
-:::
+## Windows
+- [ClashMi GitHub Releases](https://github.com/KaringX/clashmi/releases/latest)
+  - Windows 建议下载安装包:文件名规则 clashmi_xxx_windows_x64.exe (xxx为版本号)
+  - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
+- *推荐* 同样使用mihomo内核的 [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party/)
+
 
 ## 二、快速使用/quickstart {#quickstart}
 1. 选择APP首页菜单`我的配置` -> 右上角 ➕ 号按钮 -> 选择`添加配置链接`
