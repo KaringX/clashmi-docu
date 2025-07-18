@@ -36,6 +36,12 @@ outline: deep
 
 :::
 
+## 华为鸿蒙系统,clashmi连接后无网络
+::: tip
+- 核心设置-TUN-开启'覆写', 开启'启用', 关闭'DNS劫持', 开启'附加HTTP代理到VPN'
+
+:::
+
 ## Windows下点击连接报错 configure tun interface: Access is denied
 ::: tip
 - 以管理员身份重新启动clashmi后,重新连接
