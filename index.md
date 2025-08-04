@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Clash Mi Project"
-  text: "Mihomo for iOS"
+  name: "Clash Mi 官方网站"
+  text: "Mihomo for iOS/Android"
   tagline: Simple is better than complex, Complex is better than complicated
   image:
     src: /img/app_iconx_256.png
     alt: ClashMi Logo
   actions:
     - theme: brand
-      text: 用户手册
+      text: 使用说明
       link: /guide
     - theme: alt
       text: 下载APP
