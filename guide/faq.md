@@ -83,6 +83,13 @@ outline: deep
 
 :::
 
+### Macos: 点击连接,连接成功后,马上自动断开
+::: tip
+- 1. 检查 '控制台'-'崩溃报告' 中是否有'clashmiServiceSE'相关文件,如果有,则说明VPN进程崩溃,将相关崩溃文件发送给开发人员分析
+- 2. 设置-隐私与安全性-完全磁盘访问权限-开启 'clashmiServiceSE'的权限
+
+:::
+
 ## clashmi覆写是如何工作的
 ::: tip
 - clashmi覆写分为3个部分
