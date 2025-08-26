@@ -83,10 +83,9 @@ outline: deep
 
 :::
 
-### Macos: 点击连接,连接成功后,马上自动断开
-::: tip
-- 1. 检查 '控制台'-'崩溃报告' 中是否有'clashmiServiceSE'相关文件,如果有,则说明VPN进程崩溃,将相关崩溃文件发送给开发人员分析
-- 2. 设置-隐私与安全性-完全磁盘访问权限-开启 'clashmiServiceSE'的权限
+### macos 无法连接(连接后马上会自动断开)
+  - 打开系统的'控制台',切换到'崩溃报告', 搜索'clashmiServiceSE', 点击第一个搜索结果, 查找 'Thread xx Creashed:'(xx为数字), 如果堆栈中有 libswift_Concurrency.dylib, 则需要手动删除libswift_Concurrency.dylib(路径在查找结果Binary Images: 中可以找到);如果没有,则提交issue到github(需要将Thread xx Creashed及其后面的堆栈信息一起提交)
+  - 设置-隐私与安全性-完全磁盘访问权限-开启 'clashmiServiceSE'的权限
 
 :::
 
