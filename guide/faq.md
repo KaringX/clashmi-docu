@@ -149,6 +149,14 @@ outline: deep
 
 :::
 
+## 外部如何调用clashmi实现自动连接/断开连接
+::: tip
+- 连接: clash://connect?background=true
+- 断开连接: clash://disconnect?background=true
+- 重新连接: clash://reconnect?background=true
+
+:::
+
 ## 如果捐助clashmi
 ::: tip
 - window/android 用户: `关于`- `捐助`
