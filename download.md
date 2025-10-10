@@ -61,10 +61,14 @@
 
 
 ### Linux
+- [稳定版-deb安装包-点击下载](https://dot.clashmi.app/client.html?tag=linux-deb-stable)
+- [稳定版-rpm安装包-点击下载](https://dot.clashmi.app/client.html?tag=linux-rpm-stable)
 - [测试版-deb安装包-点击下载](https://dot.clashmi.app/client.html?tag=linux-deb-beta)
 - [测试版-rpm安装包-点击下载](https://dot.clashmi.app/client.html?tag=linux-rpm-beta)
 - [备用下载: 测试版-GitHub-点击下载](https://github.com/KaringX/clashmi/releases)
 -
+- [Stable Version-deb Package-Download](https://dot.clashmi.app/client.html?tag=linux-deb-stable)
+- [Stable Version-rpm Package-Download](https://dot.clashmi.app/client.html?tag=linux-rpm-stable)
 - [Beta Version-deb Package-Download](https://dot.clashmi.app/client.html?tag=linux-deb-beta)
 - [Beta Version-rpm Package-Download](https://dot.clashmi.app/client.html?tag=linux-rpm-beta)
 - [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/clashmi/releases)
