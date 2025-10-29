@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import os
+import time
 
 def fetch_isp_data(url):
     """从指定URL获取ISP数据"""
@@ -62,8 +63,9 @@ def update_markdown_file(file_path, isp_data):
         return False
 
 def main():
-    # 配置参数
-    json_url = "https://1.x31415926.top/cn.json"
+    # 生成11位时间戳（秒级时间戳，去掉最后一位）
+    timestamp = str(int(time.time()))[:-1]
+    json_url = f"https://1.x31415926.top/cn.json?t={timestamp}"
 
     # 获取当前脚本的绝对路径
     current_script_path = os.path.abspath(__file__)

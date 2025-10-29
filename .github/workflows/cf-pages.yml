@@ -1,6 +1,9 @@
 name: Deploy static content to Cloudflare Pages
 
 on:
+  schedule:
+    - cron: '0 0,10 * * *' # # 北京时间早上8点和晚上6点
+
   # Runs on pushes targeting the default branch
   push:
     branches:
