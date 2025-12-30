@@ -32,7 +32,7 @@ outline: deep
 
 ## 如何在添加订阅时关闭App的默认覆写
 ::: tip
-- 订阅链接参数添加 overwrite=false 
+- 订阅链接参数添加 `overwrite=false`
 
 :::
 
