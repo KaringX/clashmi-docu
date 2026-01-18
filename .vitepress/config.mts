@@ -25,6 +25,7 @@ export default defineConfig({
     logo: "/img/app_icon_64.png",
     nav: [
       { text: '用户手册', link: '/guide/' },
+      { text: '在线工具', link: 'https://tools.karing.app/' },
       { text: 'Download', link: '/download' }
     ],
 
