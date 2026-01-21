@@ -65,11 +65,11 @@ outline: deep
 ## ios下clashmi点击连接后,立即马上自动断开连接
 ::: tip
 - 小知识:ios系统不同于其他系统,ios系统对vpn扩展有严格的内存使用上限限制(50M),一旦超出,系统会杀死vpn进程
-- 解决方法:减少geosite/geoip等会占用大量内存规则的使用,替换成geosite/geoip ruleset
+- 解决方法:减少geosite/geoip/ip-asn等规则数量;改用mrs格式的规则集
 
 :::
 
-## ios下clashmi 内置zash面板无法正常使用
+## ios下clashmi 内置zashboard面板无法正常使用
 ::: tip
 - `zashboard`不兼容ios 16.4,具体可以到`zashboard` github[https://github.com/Zephyruso/zashboard]查看
 - 解决方案: 替换成其他在线面板(仅支持`http`协议的在线面板)
@@ -83,11 +83,6 @@ outline: deep
 
 :::
 
-### macos 无法连接(连接后马上会自动断开)
-  - 打开系统的'控制台',切换到'崩溃报告', 搜索'clashmiServiceSE', 点击第一个搜索结果, 查找 'Thread xx Creashed:'(xx为数字), 如果堆栈中有 libswift_Concurrency.dylib, 则需要手动删除libswift_Concurrency.dylib(路径在查找结果Binary Images: 中可以找到);如果没有,则提交issue到github(需要将Thread xx Creashed及其后面的堆栈信息一起提交)
-  - 设置-隐私与安全性-完全磁盘访问权限-开启 'clashmiServiceSE'的权限
-
-:::
 
 ### macos 为什么需要 '完全磁盘访问权限'
  - 此权限仅在某些设备上才需要开启(操作系统问题)
