@@ -165,6 +165,16 @@ outline: deep
 
 :::
 
+## clashmi自带的mihomo核心与原版mihomo核心功能上有何区别
+::: tip
+- geosite/geoip:会被强制转换成对应的geo ruleset
+- ips-asn:ios系统下不支持使用此数据库
+- 核心更新:不支持从面板里更新内核(需要跟随App更新)
+- 本地面板:不支持更新(需要跟随App更新)
+- 内存占用统计:使用和sing-box核心同样的统计方式(较实际使用偏低)
+
+:::
+
 ## 如果捐助clashmi
 ::: tip
 - window/android 用户: `关于`- `捐助`
