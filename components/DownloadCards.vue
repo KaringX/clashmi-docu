@@ -121,7 +121,7 @@
 
 /* 平台图标样式 */
 .platform-icon {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 0.75rem;
   width: 60px;
   height: 60px;
