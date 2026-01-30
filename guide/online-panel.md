@@ -5,6 +5,10 @@
 - web面板 `secret` 可在菜单"核心设置"中找到.
 - [zashboard GitHub repo](https://github.com/Zephyruso/zashboard)
 
+### 在线面板
+- **MetaCubeXD** https://metacubexd.pages.dev/#/setup
+- **zashboard** https://board.zash.run.place/#/setup
+
 ## 默认IP及端口
 - hostname: 127.0.0.1
 - port: 9090

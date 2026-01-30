@@ -36,6 +36,8 @@ export default defineConfig({
           { text: '快速开始', link: '/guide/#price' },
           { text: '名词解释', link: '/guide/glossary' },
           { text: '在线面板', link: '/guide/online-panel' },
+          { text: 'macOS', link: '/guide/macos' },
+          { text: 'Linux', link: '/guide/linux' },
           { text: 'FAQ', link: '/guide/faq' }
         ]
       },
