@@ -1,15 +1,5 @@
 # Download Clash Mi/下载Clash Mi
 
-#### System requirements/系统要求
-```
-    iOS >= 15
-    macOS >= 12
-    tvOS >= 17
-    Android >= 8
-    Windows >= 10
-    Linux kernel >= 6
-```
-
 ### Select System / 选择平台
 
 <PlatformCards />
@@ -91,6 +81,17 @@ import PlatformCards from './components/DownloadCards.vue'
 
 
 ## 其他
+
+### System requirements/系统要求
+```
+    iOS >= 15
+    macOS >= 12
+    tvOS >= 17
+    Android >= 8
+    Windows >= 10
+    Linux kernel >= 6
+```
+
 ### New version release notification/新版本发布通知
 - 新发布版本, 同时会在 [电报群](https://t.me/ClashMiApp) 通知
 - New releases will be notified in the [Telegram group](https://t.me/ClashMiApp)
