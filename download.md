@@ -9,7 +9,7 @@ import PlatformCards from './components/DownloadCards.vue'
 </script>
 
 
-### iOS(iPhone/iPad/tvOS) {#ios}
+### iOS(iPhone/iPad) {#ios}
 - [稳定版-应用市场-点击下载](https://apps.apple.com/us/app/clash-mi/id6744321968)
 - [测试版-TestFlight-点击下载](https://testflight.apple.com/join/bjHXktB3)
 - <font color="red">注意: 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)</font>
