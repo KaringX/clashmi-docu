@@ -3,7 +3,7 @@
 
     <div class="row platform-cards-row">
       <!-- 第一行：iOS 和 Android -->
-      <div class="col col-6 platform-card-col">
+      <div class="col col-4 platform-card-col">
         <a href="#ios" class="platform-card">
           <div class="platform-icon platform-icon-ios">📱</div>
           <h3>iOS</h3>
@@ -11,11 +11,19 @@
         </a>
       </div>
 
-      <div class="col col-6 platform-card-col">
+      <div class="col col-4 platform-card-col">
         <a href="#android" class="platform-card">
           <div class="platform-icon platform-icon-android">🤖</div>
           <h3>Android</h3>
           <p>Mobile and Tablet</p>
+        </a>
+      </div>
+
+      <div class="col col-4 platform-card-col">
+        <a href="#android-tv" class="platform-card">
+          <div class="platform-icon platform-icon-android-tv">📟</div>
+          <h3>Android TV</h3>
+          <p>TV version</p>
         </a>
       </div>
 
@@ -45,6 +53,7 @@
       </div>
 
       <!-- 第三行：tvOS 和 Android TV -->
+      <!--
       <div class="col col-6 platform-card-col">
         <a href="#ios" class="platform-card">
           <div class="platform-icon platform-icon-tvos">📺</div>
@@ -60,6 +69,7 @@
           <p>TV version</p>
         </a>
       </div>
+      -->
     </div>
   </div>
 </template>
