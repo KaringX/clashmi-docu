@@ -3,7 +3,7 @@
 ## 推荐工具
 手搓总有错误时, 工具解放左手
 - [Sub-Store 各种格式之间的转换](https://github.com/sub-store-org/Sub-Store)
-- [mihomo 汇聚工具](https://mihomo.haxtop.ggff.net/)
+- [Clash (mihomo)配置转换工具](https://tools.karing.app/tools/subconverter/converter.html)
 
 ## clash/mihomo 官方参考配置
 - yaml案例及配置可参考 [快捷配置 - 虚空终端 Docs](https://wiki.metacubex.one/example/conf/)
