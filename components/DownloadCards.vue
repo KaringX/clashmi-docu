@@ -81,7 +81,7 @@
 <style scoped>
 /* 平台卡片容器 */
 .platform-cards-container {
-  margin: 2rem 0;
+  margin: 1.6rem 0 2.2rem;
 }
 
 .platform-cards-row {
@@ -112,33 +112,35 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.15rem;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.35rem 1rem;
   text-decoration: none;
   color: inherit;
   height: 100%;
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
-  transition: all 0.3s ease;
+  background: linear-gradient(180deg, var(--vp-c-bg-soft), transparent 70%);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
 
 .platform-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.11);
   border-color: var(--vp-c-brand);
   text-decoration: none;
 }
 
 /* 平台图标样式 */
 .platform-icon {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 0.75rem;
-  width: 60px;
-  height: 60px;
+  width: 66px;
+  height: 66px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--vp-c-bg-soft);
+  background-color: color-mix(in srgb, var(--vp-c-bg-soft) 72%, transparent);
   border-radius: 12px;
 }
 
@@ -160,12 +162,12 @@
 
 /* 卡片内文字样式 */
 .platform-card h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
 }
 
 .platform-card p {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--vp-c-text-2);
   margin: 0;
 }
@@ -213,6 +215,13 @@
 
   .platform-card p {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .col-6, .col-4 {
+    width: 100%;
+    flex: 0 0 100%;
   }
 }
 </style>
