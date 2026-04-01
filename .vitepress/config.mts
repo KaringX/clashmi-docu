@@ -57,8 +57,9 @@ export default defineConfig({
       {
         text: '常用链接',
         items: [
-          { text: '下载APP', link: '/download' },
+          { text: '下载Clash Mi', link: '/download' },
           { text: '联系我们', link: '/page/contact' },
+          { text: '定制APP', link: 'https://karing.app/cooperation/custom/skiapp' },
           { text: '推荐机场', link: '/page/sponsor#list' },
           { text: '捐赠', link: 'https://clashmi.app/donate' },
         ]
