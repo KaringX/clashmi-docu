@@ -5,7 +5,7 @@ Security and privacy are at the heart of what we do. Accordingly, we think it’
 This policy uses the term “personal data” to refer to information that is related to an identified or identifiable natural person and is protected as personal data under applicable data protection law.
 
 
-This policy covers the data processing practices of Clash Mi
+This policy covers the data processing practices of this App
 
 
 In this policy, “we,” “us,” and “our” refers to the particular company from the list above that provides you with the services and is responsible for handling your data in accordance with this policy. For mobile apps, you can identify which company this is by looking at which company is listed as offering the app on the download page for that app or reviewing its terms of service. 
