@@ -65,8 +65,11 @@ def update_markdown_file(file_path, isp_data):
         new_isp_content = generate_markdown_content(isp_data)
 
         # 使用正则表达式替换ISP2部分
-        pattern = r'<!-- ISP2 START -->.*?<!-- ISP2 END -->'
-        updated_content = re.sub(pattern, new_isp_content, content, flags=re.DOTALL)
+        # pattern = r'<!-- ISP2 START -->.*?<!-- ISP2 END -->'
+        # updated_content = re.sub(pattern, new_isp_content, content, flags=re.DOTALL)
+
+        updated_content = content.replace('<!--list-->', json.dumps(isp_data), 1)
+
 
         # 写回文件
         with open(file_path, 'w', encoding='utf-8') as file:
