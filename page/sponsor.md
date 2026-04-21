@@ -8,7 +8,7 @@
 
 ## 排名不分先后, 请自行试用. 如无法访问,请自架梯  {#list}
 
-<countdown-redirect seconds="30" href="/newuser" title="新人礼 领取免费流量"></countdown-redirect>
+<countdown-redirect seconds="30" href="/newuser" title="❤️🎁新人礼🎁❤️ 领取免费流量"></countdown-redirect>
 
 <!-- 动态渲染部分 -->
 <div v-for="item in shuffledFeaturedItems" :key="item.url" class="isp-item isp-featured">
