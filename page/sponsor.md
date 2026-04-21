@@ -57,7 +57,7 @@ onMounted(() => {
 })
 
 // 原始数据（你提供的 items 数组）
-const items = ref(<!--list-->)
+const items = ref(['<!--list-->'])
 
 // 初始化 markdown-it 实例
 const md = new MarkdownIt()
