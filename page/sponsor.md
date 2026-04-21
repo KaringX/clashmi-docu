@@ -1,4 +1,3 @@
-
 # 赞助商 机场列表
 
 :::info 如何使用机场订阅链接？
@@ -11,42 +10,88 @@
 
 <countdown-redirect seconds="30" href="/newuser" title="新人礼 领取免费流量"></countdown-redirect>
 
-<!-- ISP1 START -->
+<!-- 动态渲染部分 -->
+<div v-for="item in shuffledFeaturedItems" :key="item.url" class="isp-item isp-featured">
+  <h2>{{ item.name }}</h2>
+  <div class="tip custom-block">
+    <p class="custom-block-title">⚡👑{{ item.name }}</p>
+    <p>
+      <a :href="item.url" target="_blank" rel="noopener">
+        点击前往👉<strong>【{{ item.name }}】</strong>
+      </a>
+    </p>
+    <div v-html="md.render(item.desp)"></div>
+  </div>
+</div>
 
-## 狗狗加速
-:::tip [**【狗狗加速】**](https://2r.x31415926.top/redir?i=3eb)
-
-- 高性能海外机场，❇️❇️免费试用3天❇️❇️，解锁流媒体，全球首家支持 Hysteria 协议。集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开。充值满100送10
-:::
-
-<!-- ISP1 END -->
 ## AD
 <google-ad-12></google-ad-12>
 
-<!-- ISP2 START -->
-
-## 狗狗加速
-- 高性能海外机场，❇️❇️免费试用3天❇️❇️，解锁流媒体，全球首家支持 Hysteria 协议。集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开。充值满100送10
-- [点击前往 **【狗狗加速】**](https://2r.x31415926.top/redir?i=3eb)
-
-<!-- ISP2 END -->
+<div v-for="item in shuffledNormalItems" :key="item.url" class="isp-item isp-normal">
+  <h2>{{ item.name }}</h2>
+  <div v-html="md.render(item.desp)"></div>
+  <p>
+    <a :href="item.url" target="_blank" rel="noopener">
+      点击前往👉<strong>【{{ item.name }}】</strong>
+    </a>
+  </p>
+</div>
 
 ## 赞助clashmi | 投广告
 - 机场合作通道 👉 https://karing.app/blog/isp/cooperation/
   - 成为karing、clashmi的推荐机场
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref, computed } from 'vue'
+import MarkdownIt from 'markdown-it'
 
+// 加载外部脚本
 onMounted(() => {
-  const script = document.createElement('script');
-  script.src = '/js/component/CoutdownRedirect.js?v=250417';
-  document.body.appendChild(script);
+  const script1 = document.createElement('script')
+  script1.src = '/js/component/CoutdownRedirect.js?v=250417'
+  document.body.appendChild(script1)
 
-  const scr12 = document.createElement('script');
-  scr12.src = '/js/component/GoogleAd12.js?v=2505193';
-  document.body.appendChild(scr12);
-});
+  const script2 = document.createElement('script')
+  script2.src = '/js/component/GoogleAd12.js?v=2505193'
+  document.body.appendChild(script2)
+})
 
+// 原始数据（你提供的 items 数组）
+const items = ref(<!--list-->)
+
+// 初始化 markdown-it 实例
+const md = new MarkdownIt()
+
+// 筛选精品（pick === 100）与普通项
+const featuredItems = computed(() => items.value.filter(item => item.pick === 100))
+const normalItems = computed(() => items.value.filter(item => item.pick !== 100))
+
+const shuffledFeaturedItems = computed(() => {
+  const arr = [...featuredItems.value]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+})
+
+// 随机打乱普通项
+const shuffledNormalItems = computed(() => {
+  const arr = [...normalItems.value]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+})
 </script>
 
+<style scoped>
+/* 可选：微调间距，与 VitePress 主题协调 */
+.isp-item {
+  margin-bottom: 2rem;
+}
+.isp-featured .custom-block {
+  margin-top: 0.5rem;
+}
+</style>
