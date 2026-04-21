@@ -68,7 +68,7 @@ def update_markdown_file(file_path, isp_data):
         # pattern = r'<!-- ISP2 START -->.*?<!-- ISP2 END -->'
         # updated_content = re.sub(pattern, new_isp_content, content, flags=re.DOTALL)
 
-        updated_content = content.replace('<!--list-->', json.dumps(isp_data), 1)
+        updated_content = content.replace("['<!--list-->']", json.dumps(isp_data), 1)
 
 
         # 写回文件
