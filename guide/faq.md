@@ -104,6 +104,14 @@ pageClass: faq-page
 :::
 
 
+ ### macos 版本自动更新完后,app无法启动
+ ::: tip
+  - 方法1:官网重新下载dmg后安装
+  - 方法2:打开下载目录(/Users/xxx/Library/Group Containers/group.com.nebula.clashmi/cache  xxx为你当前系统用户名),打开终端, 输入 xattr -c , 将cache目录的dmg更新包拖拽到终端后回车,重新安装该dmg更新包
+
+:::
+
+
 ## clashmi覆写是如何工作的
 ::: tip
 - clashmi覆写分为3个部分
