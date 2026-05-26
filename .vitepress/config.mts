@@ -7,6 +7,7 @@ export default defineConfig({
   cleanUrls: true, //url删除 .html
   rewrites: {
     'page/newuser.md': 'newuser.md', //新人礼
+    'page/go.md': 'go.md', // 对接文档
   },
 
   head: [
