@@ -94,6 +94,9 @@ pageClass: faq-page
 
 :::
 
+### IOS收不到Telegram 、Instagram和X等苹果推送通知
+ - 1. 核心设置-TUN-打开 'includeAllNetworks', 关闭 'excludeLocalNetworks','excludeCellularServices', 'excludeAPNs'
+ - 2. 如果你的分流规则是由机场提供,那么请联系你的机场更新苹果推送通知相关规则,否则可以参考 https://jichanggo.com/iostuisong/ 自行覆写
 
 ## macOS 为什么需要“完全磁盘访问权限”
 ::: tip
