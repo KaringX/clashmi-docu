@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Clash Mi 登录功能优势漫画</title>
+  <desc id="desc">四格漫画说明传统订阅链接容易泄露，而 Clash Mi ✈️编码/别名登录可以降低订阅暴露、统一入口管理，并配合订阅代理、多域名轮询和消息推送提升可用性。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f8ff; }
+      .panel { fill: #ffffff; stroke: #20243a; stroke-width: 4; rx: 28; }
+      .title { font: 700 34px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #16213e; }
+      .label { font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #16213e; }
+      .text { font: 500 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #26324f; }
+      .small { font: 500 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #43516f; }
+      .bubble { fill: #fff7d6; stroke: #20243a; stroke-width: 3; }
+      .danger { fill: #ff6b6b; }
+      .safe { fill: #35c98b; }
+      .blue { fill: #4c7dff; }
+      .yellow { fill: #ffd166; }
+      .dark { fill: #20243a; }
+      .line { stroke: #20243a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .dash { stroke: #ff6b6b; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 10 10; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="820"/>
+  <text class="title" x="600" y="58" text-anchor="middle">别让订阅链接裸奔：用 Clash Mi 登录更稳</text>
+  <text class="small" x="600" y="91" text-anchor="middle">✈️编码/别名 + 面板账号登录，减少泄露，方便通知，入口更好管</text>
+
+  <rect class="panel" x="40" y="125" width="540" height="285" rx="28"/>
+  <rect class="panel" x="620" y="125" width="540" height="285" rx="28"/>
+  <rect class="panel" x="40" y="455" width="540" height="285" rx="28"/>
+  <rect class="panel" x="620" y="455" width="540" height="285" rx="28"/>
+
+  <!-- Panel 1 -->
+  <text class="label" x="70" y="170">1. 传统方式：到处复制订阅</text>
+  <rect x="80" y="205" width="210" height="140" rx="18" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
+  <rect x="110" y="225" width="150" height="22" rx="8" fill="#4c7dff"/>
+  <rect x="110" y="263" width="150" height="18" rx="8" fill="#9db6ff"/>
+  <rect x="110" y="296" width="105" height="18" rx="8" fill="#9db6ff"/>
+  <text class="small" x="185" y="333" text-anchor="middle">订阅链接</text>
+
+  <path class="dash" d="M305 270 C355 230, 405 230, 455 270"/>
+  <path class="dash" d="M305 292 C360 340, 420 340, 490 300"/>
+  <circle cx="465" cy="242" r="28" class="danger"/>
+  <text class="small" x="465" y="249" text-anchor="middle" fill="#fff">爬</text>
+  <circle cx="505" cy="318" r="28" class="danger"/>
+  <text class="small" x="505" y="325" text-anchor="middle" fill="#fff">转</text>
+  <path class="bubble" d="M330 190 h185 a16 16 0 0 1 16 16 v42 a16 16 0 0 1 -16 16 h-100 l-28 28 8 -28 h-65 a16 16 0 0 1 -16 -16 v-42 a16 16 0 0 1 16 -16z"/>
+  <text class="small" x="423" y="218" text-anchor="middle">链接一传播</text>
+  <text class="small" x="423" y="244" text-anchor="middle">入口就暴露</text>
+
+  <!-- Panel 2 -->
+  <text class="label" x="650" y="170">2. 泄露后：一组用户一起受影响</text>
+  <rect x="680" y="210" width="120" height="92" rx="18" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
+  <text class="small" x="740" y="263" text-anchor="middle">同一入口</text>
+  <path class="line" d="M800 255 L900 210 L1010 230"/>
+  <path class="line" d="M800 255 L910 285 L1035 285"/>
+  <path class="line" d="M800 255 L900 340 L1015 330"/>
+  <circle cx="1035" cy="230" r="35" class="danger"/>
+  <circle cx="1060" cy="285" r="35" class="danger"/>
+  <circle cx="1040" cy="330" r="35" class="danger"/>
+  <text class="small" x="1035" y="236" text-anchor="middle" fill="#fff">封</text>
+  <text class="small" x="1060" y="291" text-anchor="middle" fill="#fff">报</text>
+  <text class="small" x="1040" y="336" text-anchor="middle" fill="#fff">断</text>
+  <path class="bubble" d="M720 325 h250 a16 16 0 0 1 16 16 v34 a16 16 0 0 1 -16 16 h-250 a16 16 0 0 1 -16 -16 v-34 a16 16 0 0 1 16 -16z"/>
+  <text class="small" x="845" y="354" text-anchor="middle">问题不是一个用户掉线</text>
+  <text class="small" x="845" y="380" text-anchor="middle">而是入口被连带影响</text>
+
+  <!-- Panel 3 -->
+  <text class="label" x="70" y="500">3. Clash Mi：✈️编码/别名 + 账号登录</text>
+  <rect x="95" y="530" width="150" height="170" rx="24" fill="#20243a"/>
+  <rect x="110" y="552" width="120" height="120" rx="18" fill="#ffffff"/>
+  <circle cx="170" cy="702" r="9" fill="#ffffff"/>
+  <text class="small" x="170" y="590" text-anchor="middle">Clash Mi</text>
+  <rect x="126" y="612" width="88" height="28" rx="14" class="safe"/>
+  <text class="small" x="170" y="632" text-anchor="middle" fill="#fff">登录</text>
+  <rect x="300" y="545" width="210" height="55" rx="16" fill="#fff7d6" stroke="#20243a" stroke-width="3"/>
+  <text class="text" x="405" y="581" text-anchor="middle">✈️编码/别名</text>
+  <rect x="300" y="620" width="210" height="55" rx="16" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
+  <text class="text" x="405" y="656" text-anchor="middle">面板账号</text>
+  <path class="line" d="M245 610 H300"/>
+  <path class="line" d="M245 650 H300"/>
+  <path class="bubble" d="M300 690 h205 a16 16 0 0 1 16 16 v34 h-237 v-34 a16 16 0 0 1 16 -16z"/>
+  <text class="small" x="402" y="718" text-anchor="middle">不用到处复制原始订阅</text>
+
+  <!-- Panel 4 -->
+  <text class="label" x="650" y="500">4. 服务商：入口更好管理</text>
+  <circle cx="735" cy="590" r="55" class="blue"/>
+  <text class="small" x="735" y="586" text-anchor="middle" fill="#fff">订阅</text>
+  <text class="small" x="735" y="612" text-anchor="middle" fill="#fff">代理</text>
+  <circle cx="890" cy="590" r="55" class="safe"/>
+  <text class="small" x="890" y="586" text-anchor="middle" fill="#fff">多域名</text>
+  <text class="small" x="890" y="612" text-anchor="middle" fill="#fff">轮询</text>
+  <circle cx="1045" cy="590" r="55" class="yellow"/>
+  <text class="small" x="1045" y="586" text-anchor="middle">消息</text>
+  <text class="small" x="1045" y="612" text-anchor="middle">推送</text>
+  <path class="line" d="M790 590 H835"/>
+  <path class="line" d="M945 590 H990"/>
+  <rect x="700" y="675" width="390" height="38" rx="19" fill="#e9efff"/>
+  <text class="text" x="895" y="701" text-anchor="middle">降低泄露影响，变更能触达用户</text>
+  <path class="line" d="M695 650 C770 630, 1015 630, 1090 650"/>
+
+  <text class="small" x="600" y="785" text-anchor="middle">核心优势：少暴露原始订阅，减少入口裸奔，让服务商在异常时还能通知和切换。</text>
+</svg>
