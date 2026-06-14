@@ -9,5 +9,9 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.1"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "esbuild@0.21.5": true
   }
 }
