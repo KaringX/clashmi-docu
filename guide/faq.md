@@ -95,7 +95,7 @@ pageClass: faq-page
 
 :::
 
-### IOS收不到Telegram 、Instagram和X等苹果推送通知
+## IOS收不到Telegram 、Instagram和X等苹果推送通知
 ::: tip
  - 1. 核心设置-TUN-打开 'includeAllNetworks', 关闭 'excludeLocalNetworks','excludeCellularServices', 'excludeAPNs'
  - 2. 如果你的分流规则是由机场提供,那么请联系你的机场更新苹果推送通知相关规则,否则可以参考 https://jichanggo.com/iostuisong/ 自行覆写, 到'当前配置'-'编辑配置'-启用'附加 Apple 推送通知规则'(如果无此选项,请先更新到最新版本)
@@ -110,7 +110,7 @@ pageClass: faq-page
 :::
 
 
- ### macos 版本自动更新完后,app无法启动
+ ## macos 版本自动更新完后,app无法启动
  ::: tip
   - 方法1:官网重新下载dmg后安装
   - 方法2:打开下载目录(/Users/xxx/Library/Group Containers/group.com.nebula.clashmi/cache  xxx为你当前系统用户名),打开终端, 输入 xattr -c , 将cache目录的dmg更新包拖拽到终端后回车,重新安装该dmg更新包
