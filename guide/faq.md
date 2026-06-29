@@ -22,6 +22,7 @@ pageClass: faq-page
 - 解决方案:
   - `TUN`设置为`覆写`,并且`启用`,重新连接(windows下需要以管理员身份重新启动clashmi才能启用TUN)
   - 如果你完全使用的是机场订阅(clashmi里未开启覆写), 你需要找你的订阅提供商改进配置
+  - 如果是android系统,请更新到 1.0.26.1201 或更高版本
 :::
 
 ## 订阅添加失败
@@ -55,7 +56,7 @@ pageClass: faq-page
 
 ## 华为鸿蒙系统,clashmi连接后无网络
 ::: tip
-- 核心设置-TUN-开启'覆写', 开启'启用', 关闭'DNS劫持', 开启'附加HTTP代理到VPN'
+- 更新到 1.0.26.1201 或更高版本
 
 :::
 
@@ -97,6 +98,7 @@ pageClass: faq-page
 ### IOS收不到Telegram 、Instagram和X等苹果推送通知
  - 1. 核心设置-TUN-打开 'includeAllNetworks', 关闭 'excludeLocalNetworks','excludeCellularServices', 'excludeAPNs'
  - 2. 如果你的分流规则是由机场提供,那么请联系你的机场更新苹果推送通知相关规则,否则可以参考 https://jichanggo.com/iostuisong/ 自行覆写
+:::
 
 ## macOS 为什么需要“完全磁盘访问权限”
 ::: tip
