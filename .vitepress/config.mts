@@ -39,7 +39,8 @@ export default defineConfig({
           { text: '在线面板', link: '/guide/online-panel' },
           { text: 'macOS', link: '/guide/macos' },
           { text: 'Linux', link: '/guide/linux' },
-          { text: 'FAQ', link: '/guide/faq' }
+          { text: 'FAQ', link: '/guide/faq' },
+          { text: '机场FAQ', link: '/guide/provider-faq' }
         ]
       },
       {
