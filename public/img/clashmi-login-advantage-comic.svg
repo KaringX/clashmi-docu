@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" lang="zh-CN" xml:lang="zh-CN" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
   <title id="title">APP 登录/绑定与订阅管理四格说明</title>
-  <desc id="desc">四格中文信息图：原始订阅外传会暴露入口并可能连带影响相关用户；服务商编码或别名配合面板账号进行 APP 登录/绑定，可避免手动分发原始订阅；安全控制包括专属 UA、HWID、隐藏订阅和隐鄙节点入口；订阅代理、域名择优和消息通知帮助维持可用性与触达，消息通知可触达已登录/已绑定设备，协助入口变更。</desc>
+  <desc id="desc">四格中文信息图：原始订阅外传会暴露入口；同一入口泄露后会连带影响一组用户；安全控制包括专属 UA、HWID、隐藏订阅和隐鄙节点入口；订阅代理、域名择优和消息通知帮助维持可用性与触达，消息通知可触达已登录/已绑定设备，协助入口变更。</desc>
   <defs>
     <style>
       .bg { fill: #f5f7fc; }
@@ -26,7 +26,7 @@
 
   <!-- 1. Raw subscription leak -->
   <rect class="panel" x="34" y="122" width="546" height="282" rx="24"/>
-  <text class="kicker" x="62" y="153">01 / 风险起点</text>
+  <text class="kicker" x="62" y="153">风险起点</text>
   <text class="heading" x="62" y="185">原始订阅外传</text>
   <rect x="68" y="211" width="182" height="112" rx="17" fill="#e9efff" stroke="#5273c8" stroke-width="2"/>
   <rect x="87" y="231" width="144" height="18" rx="7" fill="#5273c8"/>
@@ -46,26 +46,28 @@
   <text class="body" x="68" y="357">链接被爬取或转售后，入口会暴露；</text>
   <text class="body" x="68" y="383">异常也可能影响使用同一入口的相关用户。</text>
 
-  <!-- 2. Login through aliases and panel account -->
+  <!-- 2. Shared-entry impact -->
   <rect class="panel" x="620" y="122" width="546" height="282" rx="24"/>
-  <text class="kicker" x="648" y="153">02 / 登录入口</text>
-  <text class="heading" x="648" y="185">APP 登录/绑定</text>
-  <rect x="667" y="211" width="107" height="137" rx="18" fill="#1f2c48"/>
-  <rect x="678" y="224" width="85" height="93" rx="10" fill="#e9efff"/>
-  <circle cx="720" cy="333" r="6" fill="#ffffff"/>
-  <text class="small" x="720" y="257" text-anchor="middle">APP</text>
-  <rect x="683" y="274" width="74" height="24" rx="12" fill="#89d7bb"/>
-  <text x="720" y="292" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#17233d">登录/绑定</text>
-  <path class="line" d="M788 263 h38 m-12 -12 12 12 -12 12"/>
-  <rect x="839" y="214" width="265" height="58" rx="15" fill="#fff7d7" stroke="#d5a934" stroke-width="2"/>
-  <text class="tag" x="858" y="249">服务商编码或别名</text>
-  <rect x="839" y="288" width="265" height="58" rx="15" fill="#e9efff" stroke="#5273c8" stroke-width="2"/>
-  <text class="tag" x="858" y="323">面板账号</text>
-  <text class="body" x="648" y="376">使用两项登录凭据，无需手动分发原始订阅。</text>
+  <text class="kicker" x="648" y="153">泄露后</text>
+  <text class="heading" x="648" y="185">泄露后：一组用户一起受影响</text>
+  <rect x="668" y="214" width="120" height="92" rx="18" fill="#e9efff" stroke="#5273c8" stroke-width="2"/>
+  <text class="tag" x="728" y="268" text-anchor="middle">同一入口</text>
+  <path class="line" d="M788 260 L880 214 L1010 230"/>
+  <path class="line" d="M788 260 L890 282 L1035 285"/>
+  <path class="line" d="M788 260 L880 340 L1015 330"/>
+  <circle cx="1035" cy="230" r="27" fill="#a61b35"/>
+  <circle cx="1060" cy="285" r="27" fill="#9b2c45"/>
+  <circle cx="1040" cy="330" r="27" fill="#a61b35"/>
+  <text x="1035" y="236" text-anchor="middle" class="tag-white">封</text>
+  <text x="1060" y="291" text-anchor="middle" class="tag-white">报</text>
+  <text x="1040" y="336" text-anchor="middle" class="tag-white">断</text>
+  <rect x="668" y="338" width="300" height="48" rx="15" fill="#fff7d7" stroke="#d5a934" stroke-width="2"/>
+  <text class="small" x="818" y="358" text-anchor="middle">问题不是一个用户掉线</text>
+  <text class="small" x="818" y="378" text-anchor="middle">而是入口被连带影响</text>
 
   <!-- 3. Configurable security controls -->
   <rect class="panel" x="34" y="430" width="546" height="282" rx="24"/>
-  <text class="kicker" x="62" y="461">03 / 安全控制</text>
+  <text class="kicker" x="62" y="461">对接后 / 安全控制</text>
   <text class="heading" x="62" y="493">安全控制</text>
   <path d="M92 526 l43 18 v42 c0 31 -22 51 -43 59 -21 -8 -43 -28 -43 -59 v-42z" fill="#e9efff" stroke="#5273c8" stroke-width="3"/>
   <path class="line" d="M75 581 l12 12 23 -28"/>
@@ -81,7 +83,7 @@
 
   <!-- 4. Availability and outreach -->
   <rect class="panel" x="620" y="430" width="546" height="282" rx="24"/>
-  <text class="kicker" x="648" y="461">04 / 可用性与触达</text>
+  <text class="kicker" x="648" y="461">对接后 / 可用性与触达</text>
   <text class="heading" x="648" y="493">可用性与触达</text>
   <circle cx="728" cy="563" r="43" fill="#5273c8"/>
   <circle cx="892" cy="563" r="43" fill="#89d7bb"/>
