@@ -1,102 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
-  <title id="title">Clash Mi 登录功能优势漫画</title>
-  <desc id="desc">四格漫画说明传统订阅链接容易泄露，而 Clash Mi ✈️编码/别名登录可以降低订阅暴露、统一入口管理，并配合订阅代理、多域名轮询和消息推送提升可用性。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" lang="zh-CN" xml:lang="zh-CN" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">APP 登录/绑定与订阅管理四格说明</title>
+  <desc id="desc">四格中文信息图：原始订阅外传会暴露入口并可能连带影响相关用户；服务商编码或别名配合面板账号进行 APP 登录/绑定，可避免手动分发原始订阅；安全控制包括专属 UA、HWID、隐藏订阅和隐鄙节点入口；订阅代理、域名择优和消息通知帮助维持可用性与触达，消息通知可触达已登录/已绑定设备，协助入口变更。</desc>
   <defs>
     <style>
-      .bg { fill: #f6f8ff; }
-      .panel { fill: #ffffff; stroke: #20243a; stroke-width: 4; rx: 28; }
-      .title { font: 700 34px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #16213e; }
-      .label { font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #16213e; }
-      .text { font: 500 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #26324f; }
-      .small { font: 500 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #43516f; }
-      .bubble { fill: #fff7d6; stroke: #20243a; stroke-width: 3; }
-      .danger { fill: #ff6b6b; }
-      .safe { fill: #35c98b; }
-      .blue { fill: #4c7dff; }
-      .yellow { fill: #ffd166; }
-      .dark { fill: #20243a; }
-      .line { stroke: #20243a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-      .dash { stroke: #ff6b6b; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 10 10; fill: none; }
+      .bg { fill: #f5f7fc; }
+      .panel { fill: #ffffff; stroke: #263451; stroke-width: 3; }
+      .kicker { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5273c8; letter-spacing: 1px; }
+      .heading { font: 700 27px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17233d; }
+      .body { font: 500 19px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #34425d; }
+      .small { font: 500 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #4d5d79; }
+      .tag { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17233d; }
+      .tag-white { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; }
+      .white { fill: #ffffff; }
+      .line { fill: none; stroke: #263451; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .dash { fill: none; stroke: #e35e68; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 8 8; }
     </style>
   </defs>
 
   <rect class="bg" width="1200" height="820"/>
-  <text class="title" x="600" y="58" text-anchor="middle">别让订阅链接裸奔：用 Clash Mi 登录更稳</text>
-  <text class="small" x="600" y="91" text-anchor="middle">✈️编码/别名 + 面板账号登录，减少泄露，方便通知，入口更好管</text>
+  <rect x="34" y="24" width="1132" height="76" rx="24" fill="#17233d"/>
+  <text x="70" y="59" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#ffffff">登录对接，匿踪➕安全➕用户触达</text>
+  <text x="70" y="84" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" fill="#cbd7f6">从原始链接外传，到登录、控制与触达的分层处理</text>
+  <rect x="997" y="44" width="132" height="34" rx="17" fill="#89d7bb"/>
+  <text x="1063" y="67" text-anchor="middle" class="tag">四格说明</text>
 
-  <rect class="panel" x="40" y="125" width="540" height="285" rx="28"/>
-  <rect class="panel" x="620" y="125" width="540" height="285" rx="28"/>
-  <rect class="panel" x="40" y="455" width="540" height="285" rx="28"/>
-  <rect class="panel" x="620" y="455" width="540" height="285" rx="28"/>
+  <!-- 1. Raw subscription leak -->
+  <rect class="panel" x="34" y="122" width="546" height="282" rx="24"/>
+  <text class="kicker" x="62" y="153">01 / 风险起点</text>
+  <text class="heading" x="62" y="185">原始订阅外传</text>
+  <rect x="68" y="211" width="182" height="112" rx="17" fill="#e9efff" stroke="#5273c8" stroke-width="2"/>
+  <rect x="87" y="231" width="144" height="18" rx="7" fill="#5273c8"/>
+  <rect x="87" y="261" width="118" height="12" rx="6" fill="#a9bce9"/>
+  <rect x="87" y="285" width="92" height="12" rx="6" fill="#a9bce9"/>
+  <text class="tag" x="159" y="313" text-anchor="middle">原始订阅链接</text>
+  <path class="dash" d="M255 257 C304 230 331 227 365 238"/>
+  <path class="dash" d="M255 278 C310 299 342 305 392 293"/>
+  <circle cx="388" cy="234" r="27" fill="#a61b35"/>
+  <text x="388" y="240" text-anchor="middle" class="tag-white">爬虫</text>
+  <circle cx="420" cy="300" r="27" fill="#9b2c45"/>
+  <text x="420" y="306" text-anchor="middle" class="tag-white">转售</text>
+  <path class="line" d="M459 246 h62 m-14 -14 14 14 -14 14"/>
+  <rect x="448" y="273" width="104" height="52" rx="14" fill="#fff1e9"/>
+  <text class="small" x="500" y="296" text-anchor="middle">入口暴露</text>
+  <text class="small" x="500" y="316" text-anchor="middle">连带影响</text>
+  <text class="body" x="68" y="357">链接被爬取或转售后，入口会暴露；</text>
+  <text class="body" x="68" y="383">异常也可能影响使用同一入口的相关用户。</text>
 
-  <!-- Panel 1 -->
-  <text class="label" x="70" y="170">1. 传统方式：到处复制订阅</text>
-  <rect x="80" y="205" width="210" height="140" rx="18" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
-  <rect x="110" y="225" width="150" height="22" rx="8" fill="#4c7dff"/>
-  <rect x="110" y="263" width="150" height="18" rx="8" fill="#9db6ff"/>
-  <rect x="110" y="296" width="105" height="18" rx="8" fill="#9db6ff"/>
-  <text class="small" x="185" y="333" text-anchor="middle">订阅链接</text>
+  <!-- 2. Login through aliases and panel account -->
+  <rect class="panel" x="620" y="122" width="546" height="282" rx="24"/>
+  <text class="kicker" x="648" y="153">02 / 登录入口</text>
+  <text class="heading" x="648" y="185">APP 登录/绑定</text>
+  <rect x="667" y="211" width="107" height="137" rx="18" fill="#1f2c48"/>
+  <rect x="678" y="224" width="85" height="93" rx="10" fill="#e9efff"/>
+  <circle cx="720" cy="333" r="6" fill="#ffffff"/>
+  <text class="small" x="720" y="257" text-anchor="middle">APP</text>
+  <rect x="683" y="274" width="74" height="24" rx="12" fill="#89d7bb"/>
+  <text x="720" y="292" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#17233d">登录/绑定</text>
+  <path class="line" d="M788 263 h38 m-12 -12 12 12 -12 12"/>
+  <rect x="839" y="214" width="265" height="58" rx="15" fill="#fff7d7" stroke="#d5a934" stroke-width="2"/>
+  <text class="tag" x="858" y="249">服务商编码或别名</text>
+  <rect x="839" y="288" width="265" height="58" rx="15" fill="#e9efff" stroke="#5273c8" stroke-width="2"/>
+  <text class="tag" x="858" y="323">面板账号</text>
+  <text class="body" x="648" y="376">使用两项登录凭据，无需手动分发原始订阅。</text>
 
-  <path class="dash" d="M305 270 C355 230, 405 230, 455 270"/>
-  <path class="dash" d="M305 292 C360 340, 420 340, 490 300"/>
-  <circle cx="465" cy="242" r="28" class="danger"/>
-  <text class="small" x="465" y="249" text-anchor="middle" fill="#fff">爬</text>
-  <circle cx="505" cy="318" r="28" class="danger"/>
-  <text class="small" x="505" y="325" text-anchor="middle" fill="#fff">转</text>
-  <path class="bubble" d="M330 190 h185 a16 16 0 0 1 16 16 v42 a16 16 0 0 1 -16 16 h-100 l-28 28 8 -28 h-65 a16 16 0 0 1 -16 -16 v-42 a16 16 0 0 1 16 -16z"/>
-  <text class="small" x="423" y="218" text-anchor="middle">链接一传播</text>
-  <text class="small" x="423" y="244" text-anchor="middle">入口就暴露</text>
+  <!-- 3. Configurable security controls -->
+  <rect class="panel" x="34" y="430" width="546" height="282" rx="24"/>
+  <text class="kicker" x="62" y="461">03 / 安全控制</text>
+  <text class="heading" x="62" y="493">安全控制</text>
+  <path d="M92 526 l43 18 v42 c0 31 -22 51 -43 59 -21 -8 -43 -28 -43 -59 v-42z" fill="#e9efff" stroke="#5273c8" stroke-width="3"/>
+  <path class="line" d="M75 581 l12 12 23 -28"/>
+  <rect x="169" y="522" width="168" height="48" rx="14" fill="#e9efff"/>
+  <rect x="352" y="522" width="168" height="48" rx="14" fill="#e8f8f1"/>
+  <rect x="169" y="585" width="168" height="48" rx="14" fill="#fff4df"/>
+  <rect x="352" y="585" width="168" height="48" rx="14" fill="#f3ebff"/>
+  <text class="tag" x="253" y="553" text-anchor="middle">专属 UA</text>
+  <text class="tag" x="436" y="553" text-anchor="middle">HWID</text>
+  <text class="tag" x="253" y="616" text-anchor="middle">隐藏订阅</text>
+  <text class="tag" x="436" y="616" text-anchor="middle">隐鄙节点入口</text>
+  <text class="body" x="62" y="675">专属 UA、HWID 与隐藏设置，降低不必要的暴露。</text>
 
-  <!-- Panel 2 -->
-  <text class="label" x="650" y="170">2. 泄露后：一组用户一起受影响</text>
-  <rect x="680" y="210" width="120" height="92" rx="18" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
-  <text class="small" x="740" y="263" text-anchor="middle">同一入口</text>
-  <path class="line" d="M800 255 L900 210 L1010 230"/>
-  <path class="line" d="M800 255 L910 285 L1035 285"/>
-  <path class="line" d="M800 255 L900 340 L1015 330"/>
-  <circle cx="1035" cy="230" r="35" class="danger"/>
-  <circle cx="1060" cy="285" r="35" class="danger"/>
-  <circle cx="1040" cy="330" r="35" class="danger"/>
-  <text class="small" x="1035" y="236" text-anchor="middle" fill="#fff">封</text>
-  <text class="small" x="1060" y="291" text-anchor="middle" fill="#fff">报</text>
-  <text class="small" x="1040" y="336" text-anchor="middle" fill="#fff">断</text>
-  <path class="bubble" d="M720 325 h250 a16 16 0 0 1 16 16 v34 a16 16 0 0 1 -16 16 h-250 a16 16 0 0 1 -16 -16 v-34 a16 16 0 0 1 16 -16z"/>
-  <text class="small" x="845" y="354" text-anchor="middle">问题不是一个用户掉线</text>
-  <text class="small" x="845" y="380" text-anchor="middle">而是入口被连带影响</text>
+  <!-- 4. Availability and outreach -->
+  <rect class="panel" x="620" y="430" width="546" height="282" rx="24"/>
+  <text class="kicker" x="648" y="461">04 / 可用性与触达</text>
+  <text class="heading" x="648" y="493">可用性与触达</text>
+  <circle cx="728" cy="563" r="43" fill="#5273c8"/>
+  <circle cx="892" cy="563" r="43" fill="#89d7bb"/>
+  <circle cx="1056" cy="563" r="43" fill="#f5c85c"/>
+  <path class="line" d="M771 563 h72 m-13 -12 13 12 -13 12"/>
+  <path class="line" d="M935 563 h72 m-13 -12 13 12 -13 12"/>
+  <text x="728" y="558" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#ffffff">订阅</text>
+  <text x="728" y="580" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#ffffff">代理</text>
+  <text class="tag" x="892" y="558" text-anchor="middle">域名</text>
+  <text class="tag" x="892" y="580" text-anchor="middle">择优</text>
+  <text class="tag" x="1056" y="558" text-anchor="middle">消息</text>
+  <text class="tag" x="1056" y="580" text-anchor="middle">通知</text>
+  <text class="tag" x="728" y="630" text-anchor="middle">订阅代理</text>
+  <text class="tag" x="892" y="630" text-anchor="middle">域名择优</text>
+  <text class="tag" x="1056" y="630" text-anchor="middle">消息通知</text>
+  <text class="body" x="648" y="675">消息通知可触达已登录/已绑定设备，协助入口变更。</text>
 
-  <!-- Panel 3 -->
-  <text class="label" x="70" y="500">3. Clash Mi：✈️编码/别名 + 账号登录</text>
-  <rect x="95" y="530" width="150" height="170" rx="24" fill="#20243a"/>
-  <rect x="110" y="552" width="120" height="120" rx="18" fill="#ffffff"/>
-  <circle cx="170" cy="702" r="9" fill="#ffffff"/>
-  <text class="small" x="170" y="590" text-anchor="middle">Clash Mi</text>
-  <rect x="126" y="612" width="88" height="28" rx="14" class="safe"/>
-  <text class="small" x="170" y="632" text-anchor="middle" fill="#fff">登录</text>
-  <rect x="300" y="545" width="210" height="55" rx="16" fill="#fff7d6" stroke="#20243a" stroke-width="3"/>
-  <text class="text" x="405" y="581" text-anchor="middle">✈️编码/别名</text>
-  <rect x="300" y="620" width="210" height="55" rx="16" fill="#e9efff" stroke="#20243a" stroke-width="3"/>
-  <text class="text" x="405" y="656" text-anchor="middle">面板账号</text>
-  <path class="line" d="M245 610 H300"/>
-  <path class="line" d="M245 650 H300"/>
-  <path class="bubble" d="M300 690 h205 a16 16 0 0 1 16 16 v34 h-237 v-34 a16 16 0 0 1 16 -16z"/>
-  <text class="small" x="402" y="718" text-anchor="middle">不用到处复制原始订阅</text>
-
-  <!-- Panel 4 -->
-  <text class="label" x="650" y="500">4. 服务商：入口更好管理</text>
-  <circle cx="735" cy="590" r="55" class="blue"/>
-  <text class="small" x="735" y="586" text-anchor="middle" fill="#fff">订阅</text>
-  <text class="small" x="735" y="612" text-anchor="middle" fill="#fff">代理</text>
-  <circle cx="890" cy="590" r="55" class="safe"/>
-  <text class="small" x="890" y="586" text-anchor="middle" fill="#fff">多域名</text>
-  <text class="small" x="890" y="612" text-anchor="middle" fill="#fff">轮询</text>
-  <circle cx="1045" cy="590" r="55" class="yellow"/>
-  <text class="small" x="1045" y="586" text-anchor="middle">消息</text>
-  <text class="small" x="1045" y="612" text-anchor="middle">推送</text>
-  <path class="line" d="M790 590 H835"/>
-  <path class="line" d="M945 590 H990"/>
-  <rect x="700" y="675" width="390" height="38" rx="19" fill="#e9efff"/>
-  <text class="text" x="895" y="701" text-anchor="middle">降低泄露影响，变更能触达用户</text>
-  <path class="line" d="M695 650 C770 630, 1015 630, 1090 650"/>
-
-  <text class="small" x="600" y="785" text-anchor="middle">核心优势：少暴露原始订阅，减少入口裸奔，让服务商在异常时还能通知和切换。</text>
+  <rect x="34" y="740" width="1132" height="52" rx="18" fill="#e8eefb"/>
+  <circle cx="64" cy="766" r="12" fill="#5273c8"/>
+  <text x="64" y="772" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" fill="#ffffff">i</text>
+  <text class="small" x="88" y="771">增加体系防护强度，降低泄露风险、缩小影响，并提升变更后的恢复与触达能力。</text>
 </svg>
