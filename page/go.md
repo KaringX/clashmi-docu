@@ -28,6 +28,7 @@
   - 🪜默认跳转至面板自己的web登录界面，App不获取、不存储任何账号密码,  用户信息不泄露。
 - 订阅代理、User-Agent 和硬件指纹可减少异常访问与订阅地址直接暴露的机会。
 - 隐藏订阅链接和节点详情可减少敏感信息展示。
+- KaringX服务端 并不接收、存储用户及机场信息, 实现可参看: [Karing/Clash Mi登录流程](https://karing.app/blog/provider/karing-clashmi-login#登录与配置导入流程)
 
 ### 兼顾安全和用户体验
 
@@ -150,6 +151,10 @@ A: 请联系开发人员添加面板系统支持。Telegram: @ovowe @ElonWang
 **Q: 域名如何填写和使用？**
 
 A: 备用面板域名每行填写一个不带协议的纯域名。启用域名择优切换时可结合健康检测 URI；健康检测 URI 可留空，或填写以 `/` 开头的路径，例如 `/favicon.ico`、`/healthz`。
+
+**Q: 是否存在用户信息泄露的风险？**
+
+A: Karing/Clash Mi本机APP仅存储配置信息，服务端从实现上即不接收、不存储用户及机场的敏感信息， 可参看: [Karing/Clash Mi“登录”功能的技术原理与 OAuth 对比](https://karing.app/blog/provider/karing-clashmi-login)
 
 ---
 
