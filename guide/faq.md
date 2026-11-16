@@ -74,6 +74,13 @@ pageClass: faq-page
 
 :::
 
+## Windows 下显示clashmi获取当前位置信息
+::: tip
+- clashmi启动会初始化系统防火墙INetFwMgr, INetFwMgr调用内部get_CurrentProfile获取网络信息会触发内部获取当前位置信息.此信息对clashmi不可见, 后续INetFwMgr会考虑迁移到INetFwPolicy2接口
+
+:::
+
+
 ## ios下clashmi点击连接后,立即马上自动断开连接
 ::: tip
 - 小知识:ios系统不同于其他系统,ios系统对vpn扩展有严格的内存使用上限限制(50M),一旦超出,系统会杀死vpn进程
