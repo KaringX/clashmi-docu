@@ -76,7 +76,7 @@ pageClass: faq-page
 
 ## Windows 下显示clashmi获取当前位置信息
 ::: tip
-- clashmi启动会初始化系统防火墙INetFwMgr, INetFwMgr调用内部INetFwPolicy get_CurrentProfile获取网络信息会触发内部获取当前位置信息.此信息对clashmi不可见
+- 三方组件 permission-handler 启动会初始化监听winrt::Windows::Devices::Geolocation::Geolocator PositionChanged 导致.新版本permission-handler已修复此问题
 
 :::
 
